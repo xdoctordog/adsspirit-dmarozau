@@ -33,6 +33,7 @@ cd adsspirit-dmarozau
 **3. Prepare the environment and dependencies:**
 Since the `vendor` directory is not tracked in Git, install the PHP dependencies first:
 ```bash
+composer update
 composer install
 cp .env.example .env
 ```
